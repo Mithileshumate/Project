@@ -1,0 +1,347 @@
+/* assessment5pg1 */
+body{
+    margin: 0px;
+    background-color: orange;
+}
+.text{
+    text-align: center;
+}
+.main_container{
+    margin-left: 500px;
+}
+.item1{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    display: inline-block;
+    margin-bottom: 10px;
+    animation: mithi 2s infinite alternate;
+}
+
+.item2{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-top: -110px;
+    animation: mithi 2s infinite alternate;
+}
+.item3{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    margin-left: 300px;
+    margin-top: -110px;
+    animation: mithi 2s infinite alternate;
+}
+@keyframes mithi {
+    from{
+        width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    transform: skewx( 25deg);
+    }
+    to{
+        width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    transform: skewx( -25deg);
+
+    }
+}
+.main_container{
+
+}
+.item4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(34, 67, 128);
+    display: inline-block;
+    margin-top: 40px;
+    animation: prajwal 2s infinite alternate;
+}
+.item5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(34, 67, 128);
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-top: -100px;
+    animation: prajwal 2s infinite alternate;
+}
+.item6{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(34, 67, 128);
+    margin-left: 300px;
+    margin-top: -110px;
+    animation: prajwal 2s infinite alternate;
+}
+@keyframes prajwal {
+    from{
+        width: 100px;
+    height: 100px;
+    background-color: rgb(34, 67, 128);
+    transform: skewy(25deg);
+    }
+    to{
+        width: 100px;
+    height: 100px;
+    background-color: rgb(34, 67, 128);
+    transform: skewy(-25deg);
+
+    }
+}
+.main_container{
+
+}
+.item7{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    display: inline-block;
+    margin-top: 40px;
+    animation: archu 4s infinite ;
+}
+.item8{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-top: -100px;
+    animation: archu 4s infinite ;
+}
+.item9{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    margin-left: 300px;
+    margin-top: -110px;
+    animation: archu 4s infinite ;
+}
+@keyframes archu {
+    from{
+        width: 100px;
+        height: 100px;
+        background-color: tomato;
+    }
+    to{
+        width: 100px;
+    height: 100px;
+    background-color: tomato;
+    transform: rotate(360deg) ;
+    }
+}
+.main_container{
+
+}
+.item10{
+    width: 100px;
+    height: 100px;
+    background-color: darkorange;
+    display: inline-block;
+    margin-top: 40px;
+    animation: axisx 4s infinite alternate;
+}
+@keyframes axisx {
+    from{
+        width: 100px;
+        height: 100px;
+        background-color: darkorange;
+    }
+    to{
+        width: 100px;
+    height: 100px;
+    background-color: darkorange;
+    transform: rotateX(70deg);
+    }
+}
+.item11{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(114, 9, 9);
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-top: -100px;
+    animation: axisy 4s infinite alternate;
+}
+@keyframes axisy {
+    from{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(114, 9, 9);
+    }
+    to{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(114, 9, 9);
+        transform: rotatey(70deg);
+    }
+}
+.item12{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-left: 300px;
+    margin-top: -110px;
+    animation: axisz 4s infinite alternate;
+}
+@keyframes axisz {
+    from{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+    }
+    to{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        transform: rotatez(-70deg);
+    }
+}
+a{
+    color: rgb(231, 56, 56);
+    font-size: 25px;
+    margin-left: 500px;
+    text-decoration: none;
+}
+/* assessment5pg2 */
+body{
+    background-color: yellow;
+}
+.middle{
+    text-align: center;
+}
+.order{
+    margin-left: 500px;
+    transition: 2s;
+}
+.order:hover{
+    margin-left: 400px;
+}
+.test1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 148, 25);
+    transition: 2s;
+}
+.test1:hover{
+    width: 300px;
+}
+.test2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 148, 25);
+    transition: 3s;
+}
+.test2:hover{
+    width: 300px;
+    height: 300px;
+}
+.test3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 148, 25);
+    transition: 2s;
+}
+.test3:hover{
+    width: 300px;
+}
+.test4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 148, 25);
+    transition: 2s;
+}
+.test4:hover{
+    width: 300px;
+}
+.test5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 148, 25);
+    transition: 2s;
+}
+.test5:hover{
+    width: 300px;
+}
+.test6{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 148, 25);
+    transition: 2s;
+}
+.test6:hover{
+    width: 300px;
+}
+.test7{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 148, 25);
+    transition: 2s;
+}
+.test7:hover{
+    width: 300px;
+}
+/* assessment5pg3 */
+body{
+    background-color: white;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.img2{
+    height: 80px;
+    margin-left: 1250px;
+    margin-top:-700px;
+    position: absolute;  
+    transition: umate 1s;    
+}
+@keyframes umate{
+    from{
+        margin-left: 1250px;
+    }
+    to{
+        margin-left: 950px;
+        transform: scale(-50deg);
+    }
+}
+.img3{
+    width: 1350px;
+    height: 300px;
+    position: absolute;
+    margin-top: -300px;
+}
+.img4{
+    width: 1350px;
+    height: 350px;
+    position: absolute;
+    margin-top: -650px;
+}
+.img5{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-top: -380px;
+    margin-left: 400px;
+}
+.img6{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-top: -420px;
+    margin-left: 760px;
+}
+.img7{
+    width: 100px;
+    height: 100px;
+    
+    margin-top: -00px;
+}
+
+
+
